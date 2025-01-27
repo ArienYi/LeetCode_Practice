@@ -34,7 +34,7 @@ public class SlidingPuzzle {
         return -1;
     }
 
-    public List<int[][]> getNeighbors(int[][] board, int[] idx){
+    private List<int[][]> getNeighbors(int[][] board, int[] idx){
         int i = idx[0], j = idx[1];
         int n = board.length, m = board[0].length;
         int[][] dirs = new int[][]{
